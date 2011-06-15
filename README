@@ -1,0 +1,10 @@
+jpad stands for Java Production Auditing Driver
+
+It is a very small lightweight proxy JDBC driver
+that sits between your application and the real JDBC driver.
+
+It intercepts method calls for certain key classes
+and asynchronously passes each method call and its arguments
+to another event handling layer that can interpret, analyze, store, log, etc.
+interesting things about how your application is accessing the database.
+
